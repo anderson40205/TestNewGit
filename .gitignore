@@ -1,5 +1,6 @@
 *.o
 *.o.d
 *.swp
+*.jar
 build/
 __pycache__/
