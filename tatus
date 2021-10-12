@@ -1,0 +1,194 @@
+[33mcommit 1d89b18f3621eab9e279ff79e6f952f344c10084[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: RD-1163\amit <andy_kuo@amit.com.tw>
+Date:   Tue Oct 12 12:28:32 2021 +0800
+
+    test1 cc
+
+[33mcommit b383ea43acfe69a19e9272921f3b477eed034309[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: stfaspah <53041441+stfaspah@users.noreply.github.com>
+Date:   Mon Jul 22 09:40:31 2019 +0200
+
+    Prevent buffer overflow exploit (#8)
+    
+    This patch prevented buffer overflow caused by long interface identifiers.
+
+[33mcommit f4d6053c1ab77dd1d3fe9457cf7ca43fb8303ae7[m
+Author: bauuuu1021 <bboy010554@icloud.com>
+Date:   Wed Apr 24 23:08:33 2019 +0800
+
+    TCP: Add Linux kernel-based random number generator (#7)
+    
+    Besides POSIX srand/rand, this patch introduced /dev/urandom as RNG.
+
+[33mcommit 425ee3342a6325a5e07b20fe5a789c712bb42f07[m
+Author: AlecJY <ae40515@yahoo.com.tw>
+Date:   Fri Jan 18 23:28:58 2019 +0800
+
+    Use tcp_hdr_size for TCP header size calculation
+    
+    Signed-off-by: Jim Huang <jserv.tw@gmail.com>
+
+[33mcommit 6061bec9bc69485112ffc1444552c78212fb59c9[m
+Author: AlecJY <ae40515@yahoo.com.tw>
+Date:   Fri Jan 18 22:03:24 2019 +0800
+
+    Add tnetcat for TCP testing
+    
+    Signed-off-by: Jim Huang <jserv.tw@gmail.com>
+
+[33mcommit a5e48018b034bf8a8ba2910a849878fbcbe1532e[m
+Author: AlecJY <ae40515@yahoo.com.tw>
+Date:   Fri Jan 18 22:02:28 2019 +0800
+
+    Forward TCP payload to application layer
+    
+    Signed-off-by: Jim Huang <jserv.tw@gmail.com>
+
+[33mcommit a39bf668d2a4d6adc43970521054d34cdc7101e5[m
+Author: AlecJY <ae40515@yahoo.com.tw>
+Date:   Thu Jan 17 22:59:20 2019 +0800
+
+    Validate the status of port listening
+    
+    If nstack is not listening on the port, send RST-ACK rather than
+    SYN-ACK.
+    
+    Signed-off-by: Jim Huang <jserv.tw@gmail.com>
+
+[33mcommit e1a221f093529c618fb3eb71203e582491ddab8d[m
+Author: AlecJY <ae40515@yahoo.com.tw>
+Date:   Thu Jan 17 17:09:11 2019 +0800
+
+    Add TCP bind
+    
+    Signed-off-by: Jim Huang <jserv.tw@gmail.com>
+
+[33mcommit fc20501a685f72ab535c7e91ee7d9e6627829e79[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Wed Feb 6 15:20:41 2019 +0000
+
+    Enforce code style
+
+[33mcommit 45acc4321cb8496f2ab429135263bd4550648ed3[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Tue Aug 7 14:33:13 2018 +0800
+
+    Mention external source files
+    
+    nstack utilizes parts of FreeBSD libraries, which are freely
+    redistributable under the two-clause BSD License.
+
+[33mcommit 21e84488d140cc83e871f061dc564fb6991fb4b6[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Tue Aug 7 14:19:44 2018 +0800
+
+    Apply consistent style
+
+[33mcommit ad7e5dd06eac0022a62c631cf28afc3d9c10f843[m
+Author: Lao Chon Lam <laochanlam@gmail.com>
+Date:   Mon Aug 6 10:28:39 2018 +0800
+
+    Handle TCP data transmission (#4)
+    
+    Handle TCP data transmission
+    
+    Manipulate TCP data packet and reply ACK packet.
+
+[33mcommit dc09094eb1c167419bdd0d890f0c06867c759d59[m
+Merge: a939f96 d5dadd7
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Wed Jul 11 08:26:27 2018 +0200
+
+    Merge pull request #2 from mlouielu/patch-1
+    
+    Add instructions to terminate test environment
+
+[33mcommit d5dadd71ab808e6e101dd8fdf7a65521eb35ed6f[m
+Author: Louie Lu <git@louie.lu>
+Date:   Wed Jul 11 13:51:35 2018 +0800
+
+    Add how to end test environment in README
+
+[33mcommit a939f96fbd58f091d757527d399b93bb6eb70f5b[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Sun Jul 8 08:49:35 2018 +0000
+
+    Mention sudo in instructions
+    
+    NOTE: we should eliminate the need of sudo in test environment.
+
+[33mcommit ff599529bc8a565c13dfdad17c5b4c8362bbb3e2[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Sun Jul 8 08:49:19 2018 +0000
+
+    Syntax tweak
+
+[33mcommit 3df198f46ed1a90121963b504fca1d67415cc425[m
+Author: BroLeaf <dj3vu6zp@gmail.com>
+Date:   Fri Jun 22 22:29:53 2018 +0800
+
+    Implement TCP/UDP checksum
+    
+    Signed-off-by: Jim Huang <jserv.tw@gmail.com>
+
+[33mcommit 7d55e8d90a29f656d3c91c1bb6bcc74083c196e0[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Tue Jun 19 11:41:21 2018 +0800
+
+    Fix typo
+
+[33mcommit 37a9af76405d4475e3af0547bd03395db416e8c0[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Wed May 9 17:58:10 2018 +0000
+
+    Mention two-clause BSD License
+
+[33mcommit 19327b3adce68825e6a7b485bb142f54f38735a4[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Wed May 9 06:53:46 2018 +0000
+
+    Revise documentation
+
+[33mcommit fdd878ef10eca6a10d41f23eecc68e02dc234e24[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Wed May 9 11:08:10 2018 +0000
+
+    Enumerate logging level
+    
+    TODO: make level functioned as Linux printk
+
+[33mcommit 35a67d263f6a0c86bda390873ead14f7758a7495[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Wed May 9 11:03:03 2018 +0000
+
+    Explicitly use boolean type
+
+[33mcommit 0046aa921a3e2f9797236001c1bc56bfa647184c[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Wed May 9 10:57:45 2018 +0000
+
+    Indent foreach macros
+
+[33mcommit 64657ebf7d813d2a2f12ed81de2f5cb39ab27f7e[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Wed May 9 10:52:16 2018 +0000
+
+    Build netcat-like test program
+
+[33mcommit 91891016f927ed848f00a8bc25e243dac79843fa[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Wed May 9 07:04:20 2018 +0000
+
+    Don't mix generated files in source directories
+
+[33mcommit db604ca10f2c3e7d827993ef02e8c3bccdee3db6[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Wed May 9 05:45:59 2018 +0000
+
+    Import from internal tree
+
+[33mcommit 84c853649099d9a856a1eb71e599859a9d2efa04[m
+Author: Jim Huang <jserv.tw@gmail.com>
+Date:   Wed May 9 10:09:46 2018 +0000
+
+    Add license notice
